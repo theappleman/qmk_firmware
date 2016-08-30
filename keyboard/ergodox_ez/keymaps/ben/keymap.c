@@ -54,7 +54,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         // Thumb cluster
         KC_LEFT,        KC_RIGHT,
         KC_UP,
-        KC_DOWN,        KC_SPC,       KC_SPC
+        KC_DOWN,        KC_BSPC,       KC_SPC
     ),
 /* Keymap 1: Symbol Layer
  *
