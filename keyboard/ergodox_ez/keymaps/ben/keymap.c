@@ -28,7 +28,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  *                                        | Home | End  |       | Left | Right|
  *                                 ,------|------|------|       |------+--------+------.
  *                                 |      |      | PgUp |       | Up   |        |      |
- *                                 | Space| Space|------|       |------|  Bksp  | Space|
+ *                                 | Space| Shift|------|       |------|  Bksp  | Space|
  *                                 |      |      | PgDn |       | Down |        |      |
  *                                 `--------------------'       `----------------------'
  */
@@ -44,7 +44,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                                       // Thumb cluster
                                                KC_HOME,  KC_END,
                                                          KC_PGUP,
-                                      KC_SPC,  KC_SPC,   KC_PGDN,
+                                      KC_SPC,  KC_LSFT,   KC_PGDN,
         // right hand
         KC_7,           KC_8,         KC_9,    KC_0,     KC_MINS,         KC_EQL,   KC_BSPC,
         TG(MDIA),       KC_Y,         KC_U,    KC_I,     KC_O,            KC_P,     KC_DELT,
