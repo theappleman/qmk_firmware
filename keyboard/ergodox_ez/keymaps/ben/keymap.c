@@ -128,7 +128,7 @@ KEYMAP(
        KC_TILD, KC_EXLM, UK_AT,   UK_HASH,  KC_DLR,  KC_PERC, KC_TRNS,
        KC_TRNS, KC_F1,   KC_F2,   KC_F3,    KC_F4,   KC_F5,
        KC_TRNS, KC_F7,   KC_F8,   KC_F9,    KC_F10,  KC_F11,  KC_TRNS,
-       KC_NO,   KC_NO,   KC_NO,   KC_NO,    KC_NO,
+       KC_NO,   KC_TRNS, KC_NO,   KC_NO,    KC_NO,
                                   // Thumb cluster
                                             KC_TRNS, KC_TRNS,
                                                      KC_TRNS,
